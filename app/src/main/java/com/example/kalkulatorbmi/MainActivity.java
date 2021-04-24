@@ -17,4 +17,12 @@ public class MainActivity extends AppCompatActivity {
         Intent first = new Intent(this, SecondeActivity.class);
         startActivity(first);
     }
+    public void NextScreen(View view) {
+        Intent next = new Intent(this, NextActivity.class);
+        startActivity(next);
+    }
+    public void DeathScreen(View view) {
+        Intent death = new Intent(this, DeathActivity.class);
+        startActivity(death);
+    }
 }

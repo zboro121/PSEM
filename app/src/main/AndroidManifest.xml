@@ -13,6 +13,10 @@
         </activity>
         <activity android:name=".SecondeActivity" >
         </activity>
+        <activity android:name=".NextActivity" >
+        </activity>
+        <activity android:name=".DeathActivity" >
+        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
