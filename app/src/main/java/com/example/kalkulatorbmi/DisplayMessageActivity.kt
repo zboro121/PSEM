@@ -5,7 +5,7 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
 class DisplayMessageActivity : AppCompatActivity() {
-    var wynikitext: TextView? = null
+    lateinit var wynikitext: TextView
     var oblicz: String? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
